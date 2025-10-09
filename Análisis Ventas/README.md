@@ -1,5 +1,5 @@
 # Taller de Transformación de Datos con Power Query
-
+---
 ## 1. Carga inicial de datos:
 Verifique que los distintos archivos se integren correctamente en Power Query y que se
 reconozcan sus estructuras
@@ -34,8 +34,32 @@ reconozcan sus estructuras
 
 
 
-### 1.C contactos_proveedores.csv
-1.C.1. 
+### 1.C. contactos_proveedores.csv
+1.C.1. Formatear correctamente el correo de las siguientes filas y/o reubicar los valores Telefono y Pais en sus columnas respectivas<br><br>
+<img width="1020" height="21" alt="image" src="https://github.com/user-attachments/assets/598be86e-69cd-4f93-bb85-e0786a094062" />
+<img width="1015" height="24" alt="image" src="https://github.com/user-attachments/assets/bf5a5f45-ada3-482f-8d8f-499f8b62f558" />
+<img width="1009" height="20" alt="image" src="https://github.com/user-attachments/assets/52f6fd97-6f8f-49d6-a290-63d908615b1f" />
+<img width="1130" height="26" alt="image" src="https://github.com/user-attachments/assets/9deb361e-a45d-492b-9802-7495ee477e37" />
+<img width="1131" height="26" alt="image" src="https://github.com/user-attachments/assets/6355d7ce-560f-4bb6-8dc2-a00d3dfe243a" />
+<img width="1129" height="26" alt="image" src="https://github.com/user-attachments/assets/7dd8353c-46b6-4904-b19c-df00f82e1e02" />
+<img width="1136" height="22" alt="image" src="https://github.com/user-attachments/assets/06456fe2-2881-41cd-94b2-7f2b14d71783" />
+<img width="1132" height="28" alt="image" src="https://github.com/user-attachments/assets/a87d0ce7-77d5-4a4a-998b-684827ee49c3" />
+<img width="1129" height="24" alt="image" src="https://github.com/user-attachments/assets/13c64d6b-79d1-422d-ae9d-aa9146ce1ef8" />
+<img width="973" height="21" alt="image" src="https://github.com/user-attachments/assets/2ec9b953-a020-4883-8db6-789c3f7f6c18" />
+<img width="971" height="27" alt="image" src="https://github.com/user-attachments/assets/bbef4df3-4f8a-4a27-9e51-11de673d9689" />
+<img width="1135" height="21" alt="image" src="https://github.com/user-attachments/assets/1dda1a78-3213-4143-b992-356b52974888" />
+
+### 1.D. productos_erp.csv
+
+
+
+
+
+
+
+
+
+
 1.C.1. 
 1.C.1. 
 1.C.1. 
