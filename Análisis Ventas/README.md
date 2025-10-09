@@ -2,7 +2,8 @@
 
 ## Carga inicial de datos:
 Verifique que los distintos archivos se integren correctamente en Power Query y que se
-reconozcan sus estructuras.
+reconozcan sus estructuras
+.
 ### contactos_clientes.csv
 1. Formatear correctamente el siguiente correo de la fila C005 y desplazar Teléfono y País hacia la izquierda en sus columa correspondientes
    <img width="1157" height="20" alt="image" src="https://github.com/user-attachments/assets/d0765446-96ee-438d-8821-e9e95cf94c5d" />
@@ -17,22 +18,33 @@ reconozcan sus estructuras.
 	 <img width="1026" height="20" alt="image" src="https://github.com/user-attachments/assets/b53e3af4-6850-47d5-b333-de2d26c8ab17" />
 
 
+### contactos_empleados.csv
+1. Formatear correctamente el correo de las siguientes filas y/o reubicar los valores Telefono y Pais en sus columnas respectivas
+   <img width="1000" height="24" alt="image" src="https://github.com/user-attachments/assets/24eaced2-6927-4d2c-a6e2-18aaf34543d7" />
+   <img width="976" height="23" alt="image" src="https://github.com/user-attachments/assets/be0bd35e-c9b7-43e5-abea-25ee688408d0" />
+   <img width="993" height="19" alt="image" src="https://github.com/user-attachments/assets/fa16b3ed-0dbb-470a-8fdd-b6158d9a8ff6" />
+   <img width="1138" height="27" alt="image" src="https://github.com/user-attachments/assets/50f4e291-f7a9-4c6e-a0d6-c61805606b49" />
+   <img width="1136" height="24" alt="image" src="https://github.com/user-attachments/assets/80807345-c21e-4cfd-882d-6448f2abdbfd" />
+   <img width="1108" height="19" alt="image" src="https://github.com/user-attachments/assets/0fc52f00-bd5b-4c8d-ba3d-394396aa2314" />
+   <img width="1113" height="19" alt="image" src="https://github.com/user-attachments/assets/900f89c1-4cad-4b22-be69-8c0bf01d02ab" />
 
 
 
-   
+
+### contactos_proveedores.csv
+
+
+3. x
+4. x
+5. x
 6. x
 7. x
 8. x
-9. x
-10. x
-11. x
-12. x
-13. x
-14. x
+9. 
 
-15. x
-16. x
+
+   
+
 
 
 
