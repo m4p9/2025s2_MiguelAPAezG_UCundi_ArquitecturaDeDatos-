@@ -2,8 +2,8 @@
 ---
 <br><br><hr><hr><hr><br><br>
 ## 1. ⬆️ Carga inicial de datos:
-Verifique que los distintos archivos se integren correctamente en Power Query y que se
-reconozcan sus estructuras
+**Verifique que los distintos archivos se integren correctamente en Power Query y que se
+reconozcan sus estructuras**<br><br>
 
 ### 1.A. contactos_clientes.csv
 1.A.1 Formatear correctamente el siguiente correo de la fila C005 y desplazar Teléfono y País hacia la izquierda en sus columa correspondientes<br><br>
@@ -69,8 +69,8 @@ reconozcan sus estructuras
 
 
 ## 2. 🧱 Estandarización de columnas
-Revise encabezados, nombres de campo y formatos. Plantee criterios para definir nombres
-claros, consistentes y adecuados al análisis que se desarrollará.
+**Revise encabezados, nombres de campo y formatos. Plantee criterios para definir nombres
+claros, consistentes y adecuados al análisis que se desarrollará.**<br><br>
 
 
 ### 2.A. contactos_clientes.csv
