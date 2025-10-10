@@ -70,23 +70,30 @@ claros, consistentes y adecuados al análisis que se desarrollará.
 
 
 ### 2.A. contactos_clientes.csv
-2.A.1. Reemplazar '-' por ' ' en las columnas Telefono y NombreCompleto
-2.A.2. Convertir primera fila en cabecera de la tabla
-2.A.3 Reemplzar todos los nombres de los páises por su código acorde a ISO 3166-1 alfa-2
+2.A.1. Reemplazar '-' por ' ' en las columnas Telefono y NombreCompleto<br><br>
+2.A.2. Convertir primera fila en cabecera de la tabla<br><br>
+2.A.3 Reemplazar todos los nombres de los páises por su código acorde a ISO 3166-1 alfa-2<br><br>
+2.A.4. Duplicar la columna País y reemplazar sus nombres por el prefijo telefónico respectivo<br><br>
+2.A.5. Extaer el texto después del delimitador ' ' en la columna Telefono<br><br>
+
+<br><br><hr>
 
 ### 2.B. contactos_empleados.csv
-2.B.1. Reemplazar '-' por ' ' en las columnas Telefono y NombreCompleto
-2.B.2. Reemplazar '.' por ' ' en las columnas Telefono
-2.B.3. Convertir primera fila en cabecera de la tabla
-2.B.4 Reemplzar todos los nombres de los páises por su código acorde a ISO 3166-1 alfa-2
+2.B.1. Reemplazar '-' por ' ' en las columnas Telefono y NombreCompleto<br><br>
+2.B.2. Reemplazar '.' por ' ' en las columnas Telefono<br><br>
+2.B.3. Convertir primera fila en cabecera de la tabla<br><br>
+2.B.4 Reemplazar todos los nombres de los páises por su código acorde a ISO 3166-1 alfa-2<br><br>
+2.B.5 Reemplazar todos los prefijos en Telefono por vacío
+<br><br><hr>
 
 
 ### 2.C. contactos_proveedores.csv
-2.C.1. Reemplazar '-' por ' ' en las columnas Telefono
-2.C.2. Reemplazar '.' por ' ' en las columnas Telefono
-2.C.3. Convertir primera fila en cabecera de la tabla
-2.C.3. Corregir el valor Country en la siguiente columna
-<img width="986" height="17" alt="image" src="https://github.com/user-attachments/assets/2f7e92f6-822f-4985-96bc-7259661bb89f" />
+2.C.1. Reemplazar '-' por ' ' en las columnas Telefono<br><br>
+2.C.2. Reemplazar '.' por ' ' en las columnas Telefono<br><br>
+2.C.3. Convertir primera fila en cabecera de la tabla<br><br>
+2.C.3. Corregir el valor Country en la siguiente columna<br><br>
+<img width="986" height="17" alt="image" src="https://github.com/user-attachments/assets/2f7e92f6-822f-4985-96bc-7259661bb89f" /><br><br>
+<br><br><hr>
 
 
 
