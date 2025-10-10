@@ -75,15 +75,19 @@ claros, consistentes y adecuados al análisis que se desarrollará.
 2.A.3 Reemplazar todos los nombres de los páises por su código acorde a ISO 3166-1 alfa-2<br><br>
 2.A.4. Duplicar la columna País y reemplazar sus nombres por el prefijo telefónico respectivo<br><br>
 2.A.5. Extaer el texto después del delimitador ' ' en la columna Telefono<br><br>
+2.A.6. Renombrar encabezados por "ID, NOMBRE, CORREO, TELEFONO, PAIS, PREFIJO"<br><br>
 
 <br><br><hr>
 
 ### 2.B. contactos_empleados.csv
-2.B.1. Reemplazar '-' por ' ' en las columnas Telefono y NombreCompleto<br><br>
-2.B.2. Reemplazar '.' por ' ' en las columnas Telefono<br><br>
+2.B.1. Reemplazar '-' por vacío en las columnas Telefono y NombreCompleto<br><br>
+2.B.2. Reemplazar '.' por vacía en las columnas Telefono<br><br>
 2.B.3. Convertir primera fila en cabecera de la tabla<br><br>
-2.B.4 Reemplazar todos los nombres de los páises por su código acorde a ISO 3166-1 alfa-2<br><br>
-2.B.5 Reemplazar todos los prefijos en Telefono por vacío
+2.B.4. Duplicar la columna País y reemplazar sus nombres por el prefijo telefónico respectivo<br><br>
+2.B.5. Reemplazar todos los nombres de los páises por su código acorde a ISO 3166-1 alfa-2<br><br>
+2.B.6. Reemplazar todos los prefijos en Telefono por vacío<br><br>
+2.B.7. Reemplazar todos los espacios en Telefono por vacío<br><br>
+2.B.8. Renombrar encabezados por "ID, NOMBRE, CORREO, TELEFONO, PAIS, PREFIJO"<br><br>
 <br><br><hr>
 
 
@@ -91,16 +95,23 @@ claros, consistentes y adecuados al análisis que se desarrollará.
 2.C.1. Reemplazar '-' por ' ' en las columnas Telefono<br><br>
 2.C.2. Reemplazar '.' por ' ' en las columnas Telefono<br><br>
 2.C.3. Convertir primera fila en cabecera de la tabla<br><br>
-2.C.3. Corregir el valor Country en la siguiente columna<br><br>
+2.C.4. Corregir el valor Country en la siguiente columna<br><br>
+2.C.5. Duplicar la columna País y reemplazar sus nombres por el prefijo telefónico respectivo<br><br>
+2.C.6. Reemplazar todos los prefijos en Telefono por vacío<br><br>
+2.C.7. Reemplazar todos los espacios en Telefono por vacío<br><br>
+2.C.8. Renombrar encabezados por "ID, NOMBRE, CORREO, TELEFONO, PAIS, PREFIJO"<br><br>
 <img width="986" height="17" alt="image" src="https://github.com/user-attachments/assets/2f7e92f6-822f-4985-96bc-7259661bb89f" /><br><br>
 <br><br><hr>
 
+### 2.D. productos_erp.csv
+2.D.1. Renombrar todas las columnas a su versión en español y en letras capitales con snake case<br><br>
+2.D.2. Reemplazar valores de verdad en ACTIVO por SI o NO respectivamente<br><br>
+2.D.3. Capitalizar y españolizar todos valores SI o NO<br><br>
+<br><br><hr>
 
-
-
-
-
-
+### 2.E.ventas_detalle.csv
+2.E.1. Renombrar todas las columnas a su versión en español y en letras capitales con snake case<br><br>
+<br><br><hr>
 
 ## 3. Depuración de filas y columnas
 Identifique qué registros y variables no aportan valor al análisis y elimínelos o ajústelos si
