@@ -131,12 +131,14 @@ claros, consistentes y adecuados al análisis que se desarrollará.**<br><br>
 2.G.2. Normalizar todos los valores de la columna estado a minúsculas<br><br>
 2.G.3. Reemplazar todos los valores vacíos con 0<br><br><br><br><hr>
 
-
+<hr><hr><hr><br><br>
 
 
 ## 3. Depuración de filas y columnas
-Identifique qué registros y variables no aportan valor al análisis y elimínelos o ajústelos si
-lo ve necesario. Justifique las decisiones tomadas.
+**Identifique qué registros y variables no aportan valor al análisis y elimínelos o ajústelos si
+lo ve necesario. Justifique las decisiones tomadas.**<br><br>
+
+
 ## 4. Transformación de series temporales
 Convierta las columnas que representan periodos (meses o años) en una estructura que
 facilite el análisis temporal y permita comparar tendencias.
