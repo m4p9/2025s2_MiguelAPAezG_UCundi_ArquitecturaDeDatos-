@@ -129,14 +129,19 @@ claros, consistentes y adecuados al análisis que se desarrollará.**<br><br>
 ### 2.G.ventas_ordenes.csv
 2.G.1. Renombrar todas las columnas a su versión en español y en letras minúsculas con snake case<br><br>
 2.G.2. Normalizar todos los valores de la columna estado a minúsculas<br><br>
+2.G.3. Reemplazar '/' por '-' en las fechas de la columna 'orden fecha'<br><br>
+2.G.4. Reescribir las fechas que están inversas en el orden correcto<br><br>
 2.G.3. Reemplazar todos los valores vacíos con 0<br><br><br><br><hr>
 
-<hr><hr><hr><br><br>
+<hr><hr><br><br>
 
 
-## 3. Depuración de filas y columnas
+## 3. 🧹 Depuración de filas y columnas
 **Identifique qué registros y variables no aportan valor al análisis y elimínelos o ajústelos si
 lo ve necesario. Justifique las decisiones tomadas.**<br><br>
+
+
+3.1. Eliminar todas las columnas vacías, aquellas que tiene valores 'borrar' o 'null' pues carecen de significado respecto al dataset en general
 
 
 ## 4. Transformación de series temporales
