@@ -30,8 +30,7 @@ reconozcan sus estructuras
    <img width="1136" height="24" alt="image" src="https://github.com/user-attachments/assets/80807345-c21e-4cfd-882d-6448f2abdbfd" />
    <img width="1108" height="19" alt="image" src="https://github.com/user-attachments/assets/0fc52f00-bd5b-4c8d-ba3d-394396aa2314" />
    <img width="1113" height="19" alt="image" src="https://github.com/user-attachments/assets/900f89c1-4cad-4b22-be69-8c0bf01d02ab" />
-
-
+<br><br><hr>
 
 
 ### 1.C. contactos_proveedores.csv
@@ -48,11 +47,18 @@ reconozcan sus estructuras
 <img width="973" height="21" alt="image" src="https://github.com/user-attachments/assets/2ec9b953-a020-4883-8db6-789c3f7f6c18" />
 <img width="971" height="27" alt="image" src="https://github.com/user-attachments/assets/bbef4df3-4f8a-4a27-9e51-11de673d9689" />
 <img width="1135" height="21" alt="image" src="https://github.com/user-attachments/assets/1dda1a78-3213-4143-b992-356b52974888" />
+<br><br><hr>
 
 ### 1.D. productos_erp.csv
+1.D.1 Corregir el formato de las filas mal formateadas del .CSV original<br><br><hr>
 
+### 1.E. ventas_detalle.csv
+1.E.1 Corregir el formato de las filas mal formateadas del .CSV original<br><br><hr>
 
+### 1.F. ventas_detalle.csv (correcto)<br><br><hr>
 
+### 1.G. ventas_detalle.csv
+1.G.1 Corregir el formato de las filas mal formateadas del .CSV original<br><br><hr>
 
 
 
