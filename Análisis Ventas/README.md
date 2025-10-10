@@ -1,5 +1,6 @@
 # Taller de Transformación de Datos con Power Query
 ---
+<br><br><hr><hr><hr><br><br>
 ## 1. ⬆️ Carga inicial de datos:
 Verifique que los distintos archivos se integren correctamente en Power Query y que se
 reconozcan sus estructuras
@@ -55,10 +56,13 @@ reconozcan sus estructuras
 ### 1.E. ventas_detalle.csv
 1.E.1 Corregir el formato de las filas mal formateadas del .CSV original<br><br><hr>
 
-### 1.F. ventas_detalle.csv (correcto)<br><br><hr>
+### 1.F. ventas_mensuales.csv 
+1.F.1. Eliminar primeras dos filas qué contienen datos innecesarios para el análisis <br><br>
+<img width="1442" height="43" alt="image" src="https://github.com/user-attachments/assets/297ee12f-3a1e-404c-8378-b64031ce7b81" />
+<br><br><hr>
 
-### 1.G. ventas_detalle.csv
-1.G.1 Corregir el formato de las filas mal formateadas del .CSV original<br><br><hr>
+### 1.G. ventas_ordenes.csv
+1.G.1 Corregir el formato de las filas mal formateadas del .CSV original<br><br><br><br><hr><hr><hr><br><br>
  
 
 
@@ -99,19 +103,36 @@ claros, consistentes y adecuados al análisis que se desarrollará.
 2.C.5. Duplicar la columna País y reemplazar sus nombres por el prefijo telefónico respectivo<br><br>
 2.C.6. Reemplazar todos los prefijos en Telefono por vacío<br><br>
 2.C.7. Reemplazar todos los espacios en Telefono por vacío<br><br>
-2.C.8. Renombrar encabezados por "ID, NOMBRE, CORREO, TELEFONO, PAIS, PREFIJO"<br><br>
+2.C.8. Renombrar encabezados por "id, nombre, correo, telefono, pais, prefijo"<br><br>
 <img width="986" height="17" alt="image" src="https://github.com/user-attachments/assets/2f7e92f6-822f-4985-96bc-7259661bb89f" /><br><br>
 <br><br><hr>
 
 ### 2.D. productos_erp.csv
-2.D.1. Renombrar todas las columnas a su versión en español y en letras capitales con snake case<br><br>
-2.D.2. Reemplazar valores de verdad en ACTIVO por SI o NO respectivamente<br><br>
-2.D.3. Capitalizar y españolizar todos valores SI o NO<br><br>
+2.D.1. Convertir primera fila en cabecera de la tabla<br><br>
+2.D.2. Renombrar todas las columnas a su versión en español y en letras capitales con snake case<br><br>
+2.D.3. Reemplazar valores de verdad en ACTIVO por SI o NO respectivamente<br><br>
+2.D.4. Minimizar y españolizar todos valores SI o NO<br><br>
 <br><br><hr>
 
 ### 2.E.ventas_detalle.csv
-2.E.1. Renombrar todas las columnas a su versión en español y en letras capitales con snake case<br><br>
+2.E.1. Convertir primera fila en cabecera de la tabla<br><br>
+2.E.2. Renombrar todas las columnas a su versión en español y en letras minúsculas con snake case<br><br>
+2.E.3. Reemplazar valores null por 0 en la columna de precio unitario y la de cantidad <br><br>
 <br><br><hr>
+
+### 2.F.ventas_mensuales.csv
+2.F.2. Convertir primera fila en cabecera de la tabla<br><br>
+2.F.2. Reemplazar '-' , ' ', 'NaN'  por '0', ';' por '' y los años en Año por su correcto formato <br><br>
+2.E.2. Renombrar todas las columnas a su versión en español y en letras minúsculas con snake case<br><br>
+<br><br><hr>
+
+### 2.G.ventas_ordenes.csv
+2.G.1. Renombrar todas las columnas a su versión en español y en letras minúsculas con snake case<br><br>
+2.G.2. Normalizar todos los valores de la columna estado a minúsculas<br><br>
+2.G.3. Reemplazar todos los valores vacíos con 0<br><br><br><br><hr>
+
+
+
 
 ## 3. Depuración de filas y columnas
 Identifique qué registros y variables no aportan valor al análisis y elimínelos o ajústelos si
