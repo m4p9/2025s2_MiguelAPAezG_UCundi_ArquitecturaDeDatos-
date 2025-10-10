@@ -157,7 +157,7 @@ facilite el análisis temporal y permita comparar tendencias.**<br><br>
 
 <hr><hr><br><br>
 
-## 5. Control de tipos de datos
+## 5. 🏷️ Control de tipos de datos
 **Verifique que los campos numéricos, valor, de texto y de fechas tengan el formato correcto.
 Detecte posibles inconsistencias.**<br><br>
 
@@ -165,7 +165,7 @@ Detecte posibles inconsistencias.**<br><br>
 5.2. Formatear y cambiar el tipo de dato de las columnas que describan precios y valores monetarios a número decimal fijo para evitar errores de precisión matemática en los cáculos.<br><br>
 5.3. Cambiar el tipo de dato de las columnas que describan cantidades a número entero.<br><br>
 
-
+<hr><hr><br><br>
 
 ## 6. Tratamiento de valores atípicos y nulos
 Identifique valores faltantes o inconsistentes y proponga un criterio de sustitución o
