@@ -142,15 +142,20 @@ lo ve necesario. Justifique las decisiones tomadas.**<br><br>
 
 
 3.1. Eliminar todas las columnas vacías, aquellas que tiene valores 'borrar' o 'null' pues carecen de significado respecto al dataset en general<br><br>
-3.2. Rellenar todos los datos vacíos o faltantes de los contactos en genreal con "desconocido", pues eliminarlos dejaría fuera de la base de datos un contacto fundamental que existe para las relaciones mercantiles y negocios de los procesos de la organización.<br><br>
+3.2. Rellenar todos los datos vacíos o faltantes de los contactos en genreal con "desconocido", pues eliminarlos dejaría fuera de la base de datos un contacto fundamental para las relaciones mercantiles y negocios de los procesos de la organización.<br><br>
 
 
+<hr><hr><br><br>
 
 
+## 4. ⏳Transformación de series temporales
+**Convierta las columnas que representan periodos (meses o años) en una estructura que
+facilite el análisis temporal y permita comparar tendencias.**<br><br>
 
-## 4. Transformación de series temporales
-Convierta las columnas que representan periodos (meses o años) en una estructura que
-facilite el análisis temporal y permita comparar tendencias.
+4.1. Anular la dinamización de solamente las columnas de meses en la tabla ventas mensuales
+4.2. Añadir un nuevo índice para la tabla de venta mensuales
+
+
 ## 5. Control de tipos de datos
 Verifique que los campos numéricos, valor, de texto y de fechas tengan el formato correcto.
 Detecte posibles inconsistencias.
