@@ -1,9 +1,9 @@
 # Taller de Transformación de Datos con Power Query
 ---
-## 1. Carga inicial de datos:
+## 1. ⬆️ Carga inicial de datos:
 Verifique que los distintos archivos se integren correctamente en Power Query y que se
 reconozcan sus estructuras
-.
+
 ### 1.A. contactos_clientes.csv
 1.A.1 Formatear correctamente el siguiente correo de la fila C005 y desplazar Teléfono y País hacia la izquierda en sus columa correspondientes<br><br>
    <img width="1157" height="20" alt="image" src="https://github.com/user-attachments/assets/d0765446-96ee-438d-8821-e9e95cf94c5d" />
@@ -59,26 +59,37 @@ reconozcan sus estructuras
 
 ### 1.G. ventas_detalle.csv
 1.G.1 Corregir el formato de las filas mal formateadas del .CSV original<br><br><hr>
+ 
 
 
 
 
-
-
-
-1.C.1. 
-1.C.1. 
-1.C.1. 
-
-
-   
-
-
-
-
-## 2. Estandarización de columnas
+## 2. 🧱 Estandarización de columnas
 Revise encabezados, nombres de campo y formatos. Plantee criterios para definir nombres
 claros, consistentes y adecuados al análisis que se desarrollará.
+
+
+### 2.A. contactos_clientes.csv
+2.A.1. Reemplazar '-' por ' ' en las columnas Telefono y NombreCompleto
+2.A.2. Convertir primera fila en cabecera de la tabla
+
+### 2.B. contactos_empleados.csv
+2.B.1. Reemplazar '-' por ' ' en las columnas Telefono y NombreCompleto
+2.B.2. Reemplazar '.' por ' ' en las columnas Telefono
+2.B.3. Convertir primera fila en cabecera de la tabla
+
+
+### 2.C. contactos_proveedores.csv
+2.C.1. Reemplazar '-' por ' ' en las columnas Telefono
+2.C.2. Reemplazar '.' por ' ' en las columnas Telefono
+2.C.3. Convertir primera fila en cabecera de la tabla
+
+
+
+
+
+
+
 ## 3. Depuración de filas y columnas
 Identifique qué registros y variables no aportan valor al análisis y elimínelos o ajústelos si
 lo ve necesario. Justifique las decisiones tomadas.
