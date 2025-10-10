@@ -141,7 +141,11 @@ claros, consistentes y adecuados al análisis que se desarrollará.**<br><br>
 lo ve necesario. Justifique las decisiones tomadas.**<br><br>
 
 
-3.1. Eliminar todas las columnas vacías, aquellas que tiene valores 'borrar' o 'null' pues carecen de significado respecto al dataset en general
+3.1. Eliminar todas las columnas vacías, aquellas que tiene valores 'borrar' o 'null' pues carecen de significado respecto al dataset en general<br><br>
+3.2. Rellenar todos los datos vacíos o faltantes de los contactos en genreal con "desconocido", pues eliminarlos dejaría fuera de la base de datos un contacto fundamental que existe para las relaciones mercantiles y negocios de los procesos de la organización.<br><br>
+
+
+
 
 
 ## 4. Transformación de series temporales
