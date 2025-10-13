@@ -146,7 +146,7 @@ lo ve necesario. Justifique las decisiones tomadas.**<br><br>
 3.2. Rellenar todos los datos vacíos o faltantes de los contactos en genreal con "desconocido", pues eliminarlos dejaría fuera de la base de datos un contacto fundamental para las relaciones mercantiles y negocios de los procesos de la organización.<br><br>
 
 
-<hr><hr><br><br>
+<hr><hr><hr><br><br>
 
 
 ## 4. ⏳Transformación de series temporales
@@ -156,7 +156,7 @@ facilite el análisis temporal y permita comparar tendencias.**<br><br>
 4.1. Anular la dinamización de solamente las columnas de meses en la tabla ventas mensuales<br><br>
 4.2. Añadir un nuevo índice para la tabla de venta mensuales<br><br>
 
-<hr><hr><br><br>
+<hr><hr><hr><br><br>
 
 ## 5. 🏷️ Control de tipos de datos
 **Verifique que los campos numéricos, valor, de texto y de fechas tengan el formato correcto.
@@ -164,24 +164,26 @@ Detecte posibles inconsistencias.**<br><br>
 
 5.1. Reemplazar los valores SI/NO por true/false en la columna activo en la tabla productos_erp y formatearla respectivamente.<br><br>
 5.2. Formatear y cambiar el tipo de dato de las columnas que describan precios y valores monetarios a número decimal fijo para evitar errores de precisión matemática en los cáculos.<br><br>
-5.3. Cambiar el tipo de dato de las columnas que describan cantidades a número entero.<br><br>
+5.3. Cambiar el tipo de dato de las columnas que describan cantidades a número entero.
 
-<hr><hr><br><br>
+<br><br><hr><hr><hr><br><br>
 
-## 6. Tratamiento de valores atípicos y nulos
+## 6. 🧬 Tratamiento de valores atípicos y nulos
 Identifique valores faltantes o inconsistentes y proponga un criterio de sustitución o
 exclusión. Argumente por qué la estrategia elegida es la más adecuada.
 
-6.0. Ya se realizó previamente.
+6.0. Ya se realizó previamente el tratamiento a nivel general.
+<br><br><hr><hr><hr><br><br>
 
-## 7. Unificación de contactos
+## 7. 👥 Unificación de contactos
 Combine las distintas fuentes de información de clientes, proveedores y empleados en una
 sola tabla integrada, asegurándose de conservar atributos clave.
 
 7.1. Anexar a cualquiera de las consultas de contactos_... las otras dos consultas para crear una nueva mediante "Anexar Consultas"
+<br><br><hr><hr><hr><br><br>
 
 
-## 8. Enriquecimiento de datos
+## 8. ✨ Enriquecimiento de datos
 Relacione las tablas de ventas con la información de productos y detalle de pedidos
 mediante llaves apropiadas. Compruebe la consistencia de las uniones.
 
@@ -194,18 +196,19 @@ mediante llaves apropiadas. Compruebe la consistencia de las uniones.
 8.2.3. Quitar duplicados en la columna 'id_orden' en el modelo 'ventas_ordenes'<br><br>
 8.2.4. Nueva relación entre el modelo 'ventas_ordenes' desde 'id_orden' a 'id_orden' en el modelo 'ventas_detalle' como '1 a varios'<br><br>
 8.2.5 Quitar duplicados en la columna 'id_orden' en el model 'ventas_detalle'<br><br>
-8.2.6 Filtrar registros con datos vacíos o inválidos en el modelo 'ventas_detalle'<br><br>
-
-8.3. Nueva relación entre el modelo 'ventas_detalle' desde 'id_producto' a 'id_producto' en 'productos_erp' como 'Varios a 1'
-
-8.4. Nueva relación entre el modelo 'productos_erp' desde 'id_producto' a 'id_producto' en 'ventas_mensuales' como '1 a varios'
-
+8.2.6 Filtrar registros con datos vacíos o inválidos en el modelo 'ventas_detalle'<br>
+<br><br>8.3. Nueva relación entre el modelo 'ventas_detalle' desde 'id_producto' a 'id_producto' en 'productos_erp' como 'Varios a 1'
+<br><br><br>8.4. Nueva relación entre el modelo 'productos_erp' desde 'id_producto' a 'id_producto' en 'ventas_mensuales' como '1 a varios'
+<br><br><hr><hr><hr><br><br>
 
 ## 9. Evaluación de la calidad de datos
 Use las herramientas de perfilado para identificar duplicados, valores erróneos o
 distribuciones extrañas. Documente los hallazgos.
 
-9.0. Ya se realizó previamente la identificación.
+9.0. Ya se realizó previamente la identificación en cada unos de los modelos.
+
+<br><br><hr><hr><hr><br><br>
+
 
 
 ## 10. Revisión del código M
