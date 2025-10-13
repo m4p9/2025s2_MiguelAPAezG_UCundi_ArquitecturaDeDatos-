@@ -182,17 +182,20 @@ sola tabla integrada, asegurándose de conservar atributos clave.
 Relacione las tablas de ventas con la información de productos y detalle de pedidos
 mediante llaves apropiadas. Compruebe la consistencia de las uniones.
 
-8.1. Nueva relación entre el modelo 'contactos' desde 'id' a 'id_cliente' en 'ventas_ordenes'
+8.1. Nueva relación entre el modelo 'contactos' desde 'id' a 'id_cliente' en 'ventas_ordenes' como '1 a Varios'
 
 
 8.2. Relacionar ventas_ordenes  con ventas_detalle
 8.2.1. Quitar registros duplicados en ventas_ordenes
 8.2.2. Filtrar filas por todos los valores de 'total' excepto $0 en el modelo 'ventas_ordenes'
 8.2.3. Quitar duplicados en la columna 'id_orden' en el modelo 'ventas_ordenes'
-8.2.4. Nueva relación entre el modelo 'ventas_ordenes' desde 'id_orden' a 'id_orden' en el modelo 'ventas_detalle'
+8.2.4. Nueva relación entre el modelo 'ventas_ordenes' desde 'id_orden' a 'id_orden' en el modelo 'ventas_detalle' como '1 a varios'
 8.2.5 Quitar duplicados en la columna 'id_orden' en el model 'ventas_detalle'
 8.2.6 Filtrar registros con datos vacíos o inválidos en el modelo 'ventas_detalle'
 
+8.3. Nueva relación entre el modelo 'ventas_detalle' desde 'id_producto' a 'id_producto' en 'productos_erp' como 'Varios a 1'
+
+8.4. Nueva relación entre el modelo 'productos_erp' desde 'id_producto' a 'id_producto' en 'ventas_mensuales' como '1 a varios'
 
 
 ## 9. Evaluación de la calidad de datos
