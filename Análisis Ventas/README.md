@@ -1,4 +1,5 @@
-# Taller de Transformación de Datos con Power Query
+# Taller de Transformación de Datos con Power Query (Pasos Aplicados por cada Actividad)
+
 ---
 <br><br><hr><hr><hr><br><br>
 ## 1. ⬆️ Carga inicial de datos:
@@ -171,6 +172,8 @@ Detecte posibles inconsistencias.**<br><br>
 Identifique valores faltantes o inconsistentes y proponga un criterio de sustitución o
 exclusión. Argumente por qué la estrategia elegida es la más adecuada.
 
+6.0. Ya se realizó previamente.
+
 ## 7. Unificación de contactos
 Combine las distintas fuentes de información de clientes, proveedores y empleados en una
 sola tabla integrada, asegurándose de conservar atributos clave.
@@ -202,6 +205,7 @@ mediante llaves apropiadas. Compruebe la consistencia de las uniones.
 Use las herramientas de perfilado para identificar duplicados, valores erróneos o
 distribuciones extrañas. Documente los hallazgos.
 
+9.0. Ya se realizó previamente la identificación.
 
 
 ## 10. Revisión del código M
