@@ -174,12 +174,33 @@ exclusión. Argumente por qué la estrategia elegida es la más adecuada.
 ## 7. Unificación de contactos
 Combine las distintas fuentes de información de clientes, proveedores y empleados en una
 sola tabla integrada, asegurándose de conservar atributos clave.
+
+7.1. Anexar a cualquiera de las consultas de contactos_... las otras dos consultas para crear una nueva mediante "Anexar Consultas"
+
+
 ## 8. Enriquecimiento de datos
 Relacione las tablas de ventas con la información de productos y detalle de pedidos
 mediante llaves apropiadas. Compruebe la consistencia de las uniones.
+
+8.1. Nueva relación entre el modelo 'contactos' desde 'id' a 'id_cliente' en 'ventas_ordenes'
+
+
+8.2. Relacionar ventas_ordenes  con ventas_detalle
+8.2.1. Quitar registros duplicados en ventas_ordenes
+8.2.2. Filtrar filas por todos los valores de 'total' excepto $0 en el modelo 'ventas_ordenes'
+8.2.3. Quitar duplicados en la columna 'id_orden' en el modelo 'ventas_ordenes'
+8.2.4. Nueva relación entre el modelo 'ventas_ordenes' desde 'id_orden' a 'id_orden' en el modelo 'ventas_detalle'
+8.2.5 Quitar duplicados en la columna 'id_orden' en el model 'ventas_detalle'
+8.2.6 Filtrar registros con datos vacíos o inválidos en el modelo 'ventas_detalle'
+
+
+
 ## 9. Evaluación de la calidad de datos
 Use las herramientas de perfilado para identificar duplicados, valores erróneos o
 distribuciones extrañas. Documente los hallazgos.
+
+
+
 ## 10. Revisión del código M
 Explore el Editor Avanzado para comprender cómo Power Query registra cada
 transformación. Ajuste, si es necesario, algún paso para optimizar el flujo de
