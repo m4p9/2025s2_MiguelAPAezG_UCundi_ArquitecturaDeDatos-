@@ -155,6 +155,12 @@ facilite el análisis temporal y permita comparar tendencias.**<br><br>
 
 4.1. Anular la dinamización de solamente las columnas de meses en la tabla ventas mensuales<br><br>
 4.2. Añadir un nuevo índice para la tabla de venta mensuales<br><br>
+4.3. Cambiar el tipo de dato 'texto' de la columna 'anyo' en el modelo 'ventas_mensuales' a 'número entero'<br><br>
+4.4. Duplicar la columna 'mes' en el modelo 'ventas_mensuales'<br><br>
+4.5. Reemplazar los abreviaturas de los meses del cuplicado de la columna 'mes' en el modelo 'ventas_mensuales' por su respectivo número de orden en el año.<br><br>
+4.6. Agregar una columna personalizada de fórmula — #date([anyo], [numero_mes], 1) — nombrada fecha<br><br>
+4.7. Quitar las columnas 'anyo' y 'numero_mes' creadas previamente.
+
 
 <hr><hr><hr><br><br>
 
