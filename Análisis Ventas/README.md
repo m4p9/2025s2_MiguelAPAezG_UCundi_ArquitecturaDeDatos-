@@ -186,12 +186,12 @@ mediante llaves apropiadas. Compruebe la consistencia de las uniones.
 
 
 8.2. Relacionar ventas_ordenes  con ventas_detalle
-8.2.1. Quitar registros duplicados en ventas_ordenes
-8.2.2. Filtrar filas por todos los valores de 'total' excepto $0 en el modelo 'ventas_ordenes'
-8.2.3. Quitar duplicados en la columna 'id_orden' en el modelo 'ventas_ordenes'
-8.2.4. Nueva relación entre el modelo 'ventas_ordenes' desde 'id_orden' a 'id_orden' en el modelo 'ventas_detalle' como '1 a varios'
-8.2.5 Quitar duplicados en la columna 'id_orden' en el model 'ventas_detalle'
-8.2.6 Filtrar registros con datos vacíos o inválidos en el modelo 'ventas_detalle'
+8.2.1. Quitar registros duplicados en ventas_ordenes <br><br>
+8.2.2. Filtrar filas por todos los valores de 'total' excepto $0 en el modelo 'ventas_ordenes' <br><br>
+8.2.3. Quitar duplicados en la columna 'id_orden' en el modelo 'ventas_ordenes'<br><br>
+8.2.4. Nueva relación entre el modelo 'ventas_ordenes' desde 'id_orden' a 'id_orden' en el modelo 'ventas_detalle' como '1 a varios'<br><br>
+8.2.5 Quitar duplicados en la columna 'id_orden' en el model 'ventas_detalle'<br><br>
+8.2.6 Filtrar registros con datos vacíos o inválidos en el modelo 'ventas_detalle'<br><br>
 
 8.3. Nueva relación entre el modelo 'ventas_detalle' desde 'id_producto' a 'id_producto' en 'productos_erp' como 'Varios a 1'
 
