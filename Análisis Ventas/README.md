@@ -201,11 +201,18 @@ mediante llaves apropiadas. Compruebe la consistencia de las uniones.
 <br><br><br>8.4. Nueva relación entre el modelo 'productos_erp' desde 'id_producto' a 'id_producto' en 'ventas_mensuales' como '1 a varios'
 <br><br><hr><hr><hr><br><br>
 
-## 9. Evaluación de la calidad de datos
+## 9. ✅ Evaluación de la calidad de datos
 Use las herramientas de perfilado para identificar duplicados, valores erróneos o
 distribuciones extrañas. Documente los hallazgos.
 
-9.0. Ya se realizó previamente la identificación en cada unos de los modelos.
+9.0. Ya se realizó previamente la identificación en cada unos de los modelos.<br><br><br>
+<hr>
+
+### 9.1. 🔎 Hallazgos
+
+ - La mayoría las fuentes de datos poseían errores de formato en algunos registros incoherentes al formato CSV estándar, por lo que se tuvo que modificar la fuente de datos original mediante un editor de texto plano, pues la correción de Power BI era innecesariamente más compleja. Dentro de los errores de formato encontrados estaban: algunas filas estaban encerradas entre comillas dobles provocando que se interpretaran sus celdas como una sola, otras, tenían comas adicionales o comas para señalar números reales, sin embargo, el formato CSV, claramente, no distingue entre la coma como separador y la coma como punto decimal.
+ - En los diferentes modelos de almacenamiento se hallaron muchos datos cuyo formato difería de un estándar o incluso, faltan de caracteres que dieran significado al dato en completitud. Por ejemplo: algunas direcciones de correo electrónico en los modelos relacionados a los contactos faltaban del dominio o terminación, la mayoría de los números telefónicos de los contactos tenían formatos distintos entre registros, la forma en que se etiquetaban los países para cada contacto era diferente respecto al modelo de los proveedores; los valores monetarios carerían de un estándar de formato en su mayoría; en el modelo de 'ventas_detalle' se encontraron valores negativos en la columna cantidad, en contexto, podría tratarse de devoluciones tomando como referencia que se registraron reembolsos usando valores negativos en el modelo 'ventas_ordenes'; la columna 'activo' en 'productos_erp' carecía de normalización.
+ - Listando las inconsistencias en general se identifican: la existencia de productos en los modelos relacionados a ventas que faltan de registro en el modelo 'productos_erp'; las mayoría de ventas mensuales se registraron en el 2024 y es mínima la cantidad que refiere al año 2020, lo cual podría indicar un crecimiento exponencial del éxito del negocio en cuestión, asumiendo que estén las ventas registradas todas las ventas en realmente; coincidencialmente, hay tres ordenes de prodcutos resgistradas por el mismo valor total, sin embargo, no hay forma de especular razón alguna, pues los productos asociados a dichas órdenes mediante 'ventas_detalle' son inexistentes en 'productos_erp' o su precio unitario carece de sentido respecto a la cantidad registrada solicitada en la orden sin coincidir con el total descrito en 'ventas_ordenes'
 
 <br><br><hr><hr><hr><br><br>
 
