@@ -176,15 +176,15 @@ Detecte posibles inconsistencias.**<br><br>
 <br><br><hr><hr><hr><br><br>
 
 ## 6. 🧬 Tratamiento de valores atípicos y nulos
-Identifique valores faltantes o inconsistentes y proponga un criterio de sustitución o
-exclusión. Argumente por qué la estrategia elegida es la más adecuada.
+**Identifique valores faltantes o inconsistentes y proponga un criterio de sustitución o
+exclusión. Argumente por qué la estrategia elegida es la más adecuada.**
 
 6.0. **Ya se realizó** previamente el tratamiento a nivel **general**.
 <br><br><hr><hr><hr><br><br>
 
 ## 7. 👥 Unificación de contactos
-Combine las distintas fuentes de información de clientes, proveedores y empleados en una
-sola tabla integrada, asegurándose de conservar atributos clave.
+**Combine las distintas fuentes de información de clientes, proveedores y empleados en una
+sola tabla integrada, asegurándose de conservar atributos clave.**
 
 7.1. **Anexar** a cualquiera de las **consultas** de contactos_... las otras dos consultas para crear una nueva mediante "Anexar Consultas"
 7.2.1. Duplicar columna 'id' en el modelo recién creado 'contactos'<br><br>
@@ -194,8 +194,8 @@ sola tabla integrada, asegurándose de conservar atributos clave.
 
 
 ## 8. ✨ Enriquecimiento de datos
-Relacione las tablas de ventas con la información de productos y detalle de pedidos
-mediante llaves apropiadas. Compruebe la consistencia de las uniones.
+**Relacione las tablas de ventas con la información de productos y detalle de pedidos
+mediante llaves apropiadas. Compruebe la consistencia de las uniones.**
 
 8.1. **Nueva relación** entre el modelo **'contactos' desde 'id' a 'id_cliente' en 'ventas_ordenes' como '1 a Varios'**
 
@@ -212,20 +212,20 @@ mediante llaves apropiadas. Compruebe la consistencia de las uniones.
 <br><br><hr><hr><hr><br><br>
 
 ## 9. ✅ Evaluación de la calidad de datos
-Use las herramientas de perfilado para identificar duplicados, valores erróneos o
-distribuciones extrañas. Documente los hallazgos.
+**Use las herramientas de perfilado para identificar duplicados, valores erróneos o
+distribuciones extrañas. Documente los hallazgos.**
 
 9.0. **Ya se realizó** previamente la identificación en **cada uno de los modelos**.<br><br><br>
 <hr>
 
 ### 9.1. 📋 Hallazgos
 
- - La **mayoría** las fuentes de **datos poseían errores de formato** en algunos registros incoherentes al formato CSV estándar, por lo que se tuvo que modificar la fuente de datos original mediante un editor de texto plano, pues la correción de Power BI era innecesariamente más compleja. Dentro de los errores de formato encontrados estaban: algunas filas estaban encerradas entre comillas dobles provocando que se interpretaran sus celdas como una sola, otras, tenían comas adicionales o comas para señalar números reales, sin embargo, el formato CSV, claramente, no distingue entre la coma como separador y la coma como punto decimal.
- - En los diferentes modelos de almacenamiento se hallaron **muchos datos cuyo formato difería de un estándar** o incluso, **faltan de caracteres** que dieran significado al dato en completitud. Por ejemplo: algunas direcciones de correo electrónico en los modelos relacionados a los contactos faltaban del dominio o terminación, la mayoría de los números telefónicos de los contactos tenían **formatos distintos** entre registros, la forma en que se etiquetaban los países para cada contacto era diferente respecto al modelo de los proveedores; los valores monetarios carerían de un estándar de formato en su mayoría; en el modelo de 'ventas_detalle' se encontraron **valores negativos** en la columna cantidad, en contexto, podría tratarse de devoluciones tomando como referencia que se registraron reembolsos usando valores negativos en el modelo 'ventas_ordenes'; la columna 'activo' en 'productos_erp' **carecía de normalización**.
- - Listando las inconsistencias en general se identifican: la existencia de productos en los modelos relacionados a ventas que faltan de registro en el modelo 'productos_erp'; las mayoría de ventas mensuales se registraron en el 2024 y es mínima la cantidad que refiere al año 2020, lo cual podría indicar un crecimiento exponencial del éxito del negocio en cuestión, asumiendo que estén las ventas registradas todas las ventas en realmente; coincidencialmente, hay tres ordenes de prodcutos resgistradas por el mismo valor total, sin embargo, no hay forma de especular razón alguna, pues los productos asociados a dichas órdenes mediante 'ventas_detalle' son inexistentes en 'productos_erp' o su precio unitario carece de sentido respecto a la cantidad registrada solicitada en la orden sin coincidir con el total descrito en 'ventas_ordenes'; hubieron bastantes números telefónicos sin prefijo nacional, aun así, debido al formato del número, se puedo determinar que era originarios de Colombia debido al contexto dado conformado por los modelos de contactos.
- - Aunque la mayoría de las ventas se dieron durante el 2024, solo el 33,33% de estas tienen asociado un cliente registrado, además, aunque los clientes registrados tienen una distribución por nacionalidad similar, más del doble de las ventas realizadas durante el 2024 fueron realizadas a Chile, aprox. la mitad a Colombia y faltan registro alguno respecto a los clientes de otros países.
- - Las ventas mensuales durante el año 2024 presentan una varianza casi insignificante, es decir, los totales mensuales son prácticamente idénticos a nivel porcentual respecto al total de ventas durante el año; a diferencia del año 2020, donde las ventas por mes aparentan tener un comportamiento más 'natural'.
- - Según los registros de ventas mensuales durante los dos únicos años descritos, hubo una mayor variedad de productos vendidos durante el 2024 que en 2020, este último con tan solo 3 respecto a los 20 distintos vendidos en el 2024.
+ - *La **mayoría** las fuentes de **datos poseían errores de formato** en algunos registros incoherentes al formato CSV estándar, por lo que se tuvo que modificar la fuente de datos original mediante un editor de texto plano, pues la correción de Power BI era innecesariamente más compleja. Dentro de los errores de formato encontrados estaban: algunas filas estaban encerradas entre comillas dobles provocando que se interpretaran sus celdas como una sola, otras, tenían comas adicionales o comas para señalar números reales, sin embargo, el formato CSV, claramente, no distingue entre la coma como separador y la coma como punto decimal.*<br>
+ - *En los diferentes modelos de almacenamiento se hallaron **muchos datos cuyo formato difería de un estándar** o incluso, **faltan de caracteres** que dieran significado al dato en completitud. Por ejemplo: algunas direcciones de correo electrónico en los modelos relacionados a los contactos faltaban del dominio o terminación, la mayoría de los números telefónicos de los contactos tenían **formatos distintos** entre registros, la forma en que se etiquetaban los países para cada contacto era diferente respecto al modelo de los proveedores; los valores monetarios carerían de un estándar de formato en su mayoría; en el modelo de 'ventas_detalle' se encontraron **valores negativos** en la columna cantidad, en contexto, podría tratarse de devoluciones tomando como referencia que se registraron reembolsos usando valores negativos en el modelo 'ventas_ordenes'; la columna 'activo' en 'productos_erp' **carecía de normalización**.*<br>
+ - *Listando las inconsistencias en general se identifican: la existencia de **productos** en los modelos relacionados a ventas que **faltan de registro en el modelo 'productos_erp'**; las **mayoría de ventas mensuales se registraron en el 2024** y es mínima la cantidad que refiere al año 2020, lo cual podría indicar un **crecimiento exponencial** del éxito del negocio en cuestión, asumiendo que estén las ventas registradas todas las ventas en realmente; coincidencialmente, hay tres **ordenes de prodcutos resgistradas por el mismo valor** total, sin embargo, no hay forma de especular razón alguna, pues los productos asociados a dichas órdenes mediante 'ventas_detalle' son inexistentes en 'productos_erp' o su precio unitario carece de sentido respecto a la cantidad registrada solicitada en la orden sin coincidir con el total descrito en 'ventas_ordenes'; hubieron bastantes **números telefónicos sin prefijo** nacional, aun así, debido al formato del número, se puedo determinar que eran **originarios de Colombia** debido al contexto dado conformado por los modelos de contactos.*<br>
+ - *Aunque la mayoría de las **ventas** se dieron durante el 2024, **solo el 33,33% de estas tienen asociado un cliente** registrado, además, aunque los clientes registrados tienen una distribución por nacionalidad similar, **más del doble de las ventas realizadas durante el 2024 fueron realizadas a Chile**, aprox. la mitad a Colombia y **faltan registro alguno respecto a los clientes de otros países**.*<br>
+ - *Las ventas mensuales durante el año 2024 presentan una varianza casi insignificante, es decir, los totales mensuales son prácticamente idénticos a nivel porcentual respecto al total de ventas durante el año; a diferencia del año 2020, donde las ventas por mes aparentan tener un comportamiento más 'natural'.*<br>
+ - *Según los registros de ventas mensuales durante los dos únicos años descritos, hubo una **mayor variedad de productos vendidos durante el 2024** que en 2020, este último con tan solo **3 respecto a los 20 distintos** vendidos en el 2024.*
 
 <br><br><hr><hr><hr><br><br>
 
@@ -237,13 +237,14 @@ transformación. Ajuste, si es necesario, algún paso para optimizar el flujo de
 transformación.
 
 
-10.1. Reunificar el numero telefónico con su prefijo en el modelo consolidado 'contactos' (usando la misma lógica que se usó para unificar el año con el mes, pero usando la fórmula — [prefijo] & " " & [telefono] — ) y reemplazar el valor 'desconocido' por '???' para simplificar<br><br>
-10.2. Eliminar cualquier espacio en blanco sobrante en cada nombre en el modelo 'contactos' mediante la fórmula — Text.Combine(List.Select(Text.Split(Text.Trim([nombre]), " "), each _ <> ""), " ")) — que recorta los espacios en blanco restantes al incio y fin de la cadena de texto, luego divide la cadena usando como separador los espacios en blanco, después, selecciona de estos todos los que sean diferentes de a un espacio en blanco, para finalmente, combinar en una sola cadena las palabras que quedaron (los nomres sin espacios en blanco  adicionales intemedios ni extremos).<br><br>
-10.3. Automatizar el valor de la columna 'tipo' en el modelo consolidado 'contactos', pues se relaciona directamente con el primer caracter del código del contacto, tal que se puede definir mediante la función:<br><br>
-<i>
+10.1. **Reunificar el numero telefónico con su prefijo** en el modelo consolidado 'contactos' (usando la misma lógica que se usó para unificar el año con el mes, pero usando la fórmula — **[prefijo] & " " & [telefono]** — ) y reemplazar el valor 'desconocido' por '???' para simplificar<br><br>
+10.2. **Eliminar cualquier espacio en blanco sobrante en cada nombre** en el modelo 'contactos' mediante la fórmula — **Text.Combine(List.Select(Text.Split(Text.Trim([nombre]), " "), each _ <> ""), " "))** — que recorta los espacios en blanco restantes al incio y fin de la cadena de texto, luego divide la cadena usando como separador los espacios en blanco, después, selecciona de estos todos los que sean diferentes de a un espacio en blanco, para finalmente, combinar en una sola cadena las palabras que quedaron (los nomres sin espacios en blanco  adicionales intemedios ni extremos).<br><br>
+10.3. **Automatizar el valor** de la columna 'tipo' en el modelo consolidado 'contactos', pues se relaciona directamente con el primer caracter del código del contacto, tal que se puede definir mediante la función:<br><br>
+<i><b>
 	if Text.Upper(Text.Start(Text.Trim([id]), 1)) = "C" then "cliente"<br>
 	else if Text.Upper(Text.Start(Text.Trim([id]), 1)) = "E" then "empleado"<br>
 	else if Text.Upper(Text.Start(Text.Trim([id]), 1)) = "P" then "proveedor"<br>
 	else "desocupado xD (bromita, no se lo tome en serio profe :C)"<br>
+	</b>
 </i>
- - Se añade la columna rol (tipo de empleado) puesto que no es suficientemente intuitivo el caracter inicial del código del contacto para alguien neonato en la orgnización y podría confundirse con el código para declarar un producto.
+ - Se añade la **columna rol (tipo de empleado)** puesto que **no es suficientemente intuitivo el caracter inicial del código del contacto** para alguien neonato en la orgnización y podría confundirse con el código para declarar un producto.
