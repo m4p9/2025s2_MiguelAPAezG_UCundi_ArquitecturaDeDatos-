@@ -7,14 +7,14 @@
 reconozcan sus estructuras**<br><br>
 
 ### 1.A. contactos_clientes.csv
-1.A.1 Formatear correctamente el siguiente correo de la fila C005 y desplazar Teléfono y País hacia la izquierda en sus columa correspondientes<br><br>
+1.A.1 **Formatear correctamente** el siguiente correo de la fila C005 y desplazar Teléfono y País hacia la izquierda en sus columa correspondientes<br><br>
    <img width="1157" height="20" alt="image" src="https://github.com/user-attachments/assets/d0765446-96ee-438d-8821-e9e95cf94c5d" />
    <br><br><hr>
-1.A.3. Eliminar valores los siguientes errrados en la columna Telefono<br><br>
+1.A.3. **Eliminar valores** los siguientes errrados en la columna Telefono<br><br>
    <img width="1169" height="18" alt="image" src="https://github.com/user-attachments/assets/d99dec03-6e52-4ed3-a323-c7daa0c27cff" />
    <img width="1184" height="17" alt="image" src="https://github.com/user-attachments/assets/104f6865-9239-4368-b213-a205ebb0216a" />
    <br><br><hr>
-1.A.4. Completar o corregir los siguientes dominios de correo (dominio por defecto a nivel global es .com)<br><br>
+1.A.4. **Completar o corregir** los siguientes dominios de **correo** (dominio por defecto a nivel global es .com)<br><br>
    <img width="1186" height="25" alt="image" src="https://github.com/user-attachments/assets/aab9d726-359a-4dea-b21e-c4162950f6eb" />
 	<img width="1027" height="16" alt="image" src="https://github.com/user-attachments/assets/19ca539a-ba3c-4d83-a23f-5edbcc056e43" />
 	<img width="1021" height="27" alt="image" src="https://github.com/user-attachments/assets/439458c7-5b53-4345-ab47-96ba0930aad6" />
@@ -24,7 +24,7 @@ reconozcan sus estructuras**<br><br>
 
 
 ### 1.B. contactos_empleados.csv
-1.B.1. Formatear correctamente el correo de las siguientes filas y/o reubicar los valores Telefono y Pais en sus columnas respectivas
+1.B.1. **Formatear correctamente** el correo de las siguientes filas y/o reubicar los valores Telefono y Pais en sus columnas respectivas
    <img width="1000" height="24" alt="image" src="https://github.com/user-attachments/assets/24eaced2-6927-4d2c-a6e2-18aaf34543d7" />
    <img width="976" height="23" alt="image" src="https://github.com/user-attachments/assets/be0bd35e-c9b7-43e5-abea-25ee688408d0" />
    <img width="993" height="19" alt="image" src="https://github.com/user-attachments/assets/fa16b3ed-0dbb-470a-8fdd-b6158d9a8ff6" />
@@ -36,7 +36,7 @@ reconozcan sus estructuras**<br><br>
 
 
 ### 1.C. contactos_proveedores.csv
-1.C.1. Formatear correctamente el correo de las siguientes filas y/o reubicar los valores Telefono y Pais en sus columnas respectivas<br><br>
+1.C.1. **Formatear correctamente** el correo de las siguientes filas y/o reubicar los valores Telefono y Pais en sus columnas respectivas<br><br>
 <img width="1020" height="21" alt="image" src="https://github.com/user-attachments/assets/598be86e-69cd-4f93-bb85-e0786a094062" />
 <img width="1015" height="24" alt="image" src="https://github.com/user-attachments/assets/bf5a5f45-ada3-482f-8d8f-499f8b62f558" />
 <img width="1009" height="20" alt="image" src="https://github.com/user-attachments/assets/52f6fd97-6f8f-49d6-a290-63d908615b1f" />
@@ -52,18 +52,18 @@ reconozcan sus estructuras**<br><br>
 <br><br><hr>
 
 ### 1.D. productos_erp.csv
-1.D.1 Corregir el formato de las filas mal formateadas del .CSV original<br><br><hr>
+1.D.1 **Corregir el formato** de las filas mal formateadas del .CSV original<br><br><hr>
 
 ### 1.E. ventas_detalle.csv
-1.E.1 Corregir el formato de las filas mal formateadas del .CSV original<br><br><hr>
+1.E.1 **Corregir el formato** de las filas mal formateadas del .CSV original<br><br><hr>
 
 ### 1.F. ventas_mensuales.csv 
-1.F.1. Eliminar primeras dos filas qué contienen datos innecesarios para el análisis <br><br>
+1.F.1. **Eliminar primeras dos** filas qué contienen datos innecesarios para el análisis <br><br>
 <img width="1442" height="43" alt="image" src="https://github.com/user-attachments/assets/297ee12f-3a1e-404c-8378-b64031ce7b81" />
 <br><br><hr>
 
 ### 1.G. ventas_ordenes.csv
-1.G.1 Corregir el formato de las filas mal formateadas del .CSV original<br><br><br><br><hr><hr><hr><br><br>
+1.G.1 **Corregir el formato** de las filas mal formateadas del .CSV original<br><br><br><br><hr><hr><hr><br><br>
  
 
 
@@ -75,64 +75,65 @@ claros, consistentes y adecuados al análisis que se desarrollará.**<br><br>
 
 
 ### 2.A. contactos_clientes.csv
-2.A.1. Reemplazar '-' por ' ' en las columnas Telefono y NombreCompleto<br><br>
-2.A.2. Convertir primera fila en cabecera de la tabla<br><br>
-2.A.3 Reemplazar todos los nombres de los páises por su código acorde a ISO 3166-1 alfa-2<br><br>
+2.A.1. **Reemplazar** '-' por ' ' en las columnas Telefono y NombreCompleto<br><br>
+2.A.2. Convertir primera fila en **cabecera** de la tabla<br><br>
+2.A.3 Reemplazar todos los nombres de los **páises por su código** acorde a ISO 3166-1 alfa-2<br><br>
 2.A.4. Duplicar la columna País y reemplazar sus nombres por el prefijo telefónico respectivo<br><br>
 2.A.5. Extaer el texto después del delimitador ' ' en la columna Telefono<br><br>
-2.A.6. Renombrar encabezados por "ID, NOMBRE, CORREO, TELEFONO, PAIS, PREFIJO"<br><br>
+2.A.6. **Renombrar** encabezados por "ID, NOMBRE, CORREO, TELEFONO, PAIS, PREFIJO"<br><br>
 
 <br><br><hr>
 
 ### 2.B. contactos_empleados.csv
-2.B.1. Reemplazar '-' por vacío en las columnas Telefono y NombreCompleto<br><br>
-2.B.2. Reemplazar '.' por vacía en las columnas Telefono<br><br>
-2.B.3. Convertir primera fila en cabecera de la tabla<br><br>
+2.B.1. **Reemplazar** '-' por vacío en las columnas Telefono y NombreCompleto<br><br>
+2.B.2. **Reemplazar** '.' por vacía en las columnas Telefono<br><br>
+2.B.3. Convertir primera fila en **cabecera** de la tabla<br><br>
 2.B.4. Duplicar la columna País y reemplazar sus nombres por el prefijo telefónico respectivo<br><br>
-2.B.5. Reemplazar todos los nombres de los páises por su código acorde a ISO 3166-1 alfa-2<br><br>
-2.B.6. Reemplazar todos los prefijos en Telefono por vacío<br><br>
-2.B.7. Reemplazar todos los espacios en Telefono por vacío<br><br>
-2.B.8. Renombrar encabezados por "ID, NOMBRE, CORREO, TELEFONO, PAIS, PREFIJO"<br><br>
+2.B.5. Reemplazar todos los nombres de los **páises por su código** acorde a ISO 3166-1 alfa-2<br><br>
+2.B.6. **Reemplazar** todos los prefijos en Telefono por vacío<br><br>
+2.B.7. **Reemplazar** todos los espacios en Telefono por vacío<br><br>
+2.B.8. **Renombrar** encabezados por "ID, NOMBRE, CORREO, TELEFONO, PAIS, PREFIJO"<br><br>
 <br><br><hr>
 
 
 ### 2.C. contactos_proveedores.csv
-2.C.1. Reemplazar '-' por ' ' en las columnas Telefono<br><br>
-2.C.2. Reemplazar '.' por ' ' en las columnas Telefono<br><br>
-2.C.3. Convertir primera fila en cabecera de la tabla<br><br>
-2.C.4. Corregir el valor Country en la siguiente columna<br><br>
-2.C.5. Duplicar la columna País y reemplazar sus nombres por el prefijo telefónico respectivo<br><br>
-2.C.6. Reemplazar todos los prefijos en Telefono por vacío<br><br>
-2.C.7. Reemplazar todos los espacios en Telefono por vacío<br><br>
-2.C.8. Renombrar encabezados por "id, nombre, correo, telefono, pais, prefijo"<br><br>
+2.C.1. **Reemplazar** '-' por ' ' en las columnas Telefono<br><br>
+2.C.2. **Reemplazar** '.' por ' ' en las columnas Telefono<br><br>
+2.C.3. Convertir primera fila en **cabecera** de la tabla<br><br>
 <img width="986" height="17" alt="image" src="https://github.com/user-attachments/assets/2f7e92f6-822f-4985-96bc-7259661bb89f" /><br><br>
+2.C.4. **Corregir** el valor Country en la siguiente columna<br><br>
+2.C.5. Duplicar la columna País y reemplazar sus nombres por el prefijo telefónico respectivo<br><br>
+2.C.6. **Reemplazar** todos los prefijos en Telefono por vacío<br><br>
+2.C.7. **Reemplazar** todos los espacios en Telefono por vacío<br><br>
+2.C.8. **Renombrar** encabezados por "id, nombre, correo, telefono, pais, prefijo"<br><br>
+
 <br><br><hr>
 
 ### 2.D. productos_erp.csv
-2.D.1. Convertir primera fila en cabecera de la tabla<br><br>
-2.D.2. Renombrar todas las columnas a su versión en español y en letras capitales con snake case<br><br>
-2.D.3. Reemplazar valores de verdad en ACTIVO por SI o NO respectivamente<br><br>
-2.D.4. Minimizar y españolizar todos valores SI o NO<br><br>
+2.D.1. Convertir primera fila en **cabecera** de la tabla<br><br>
+2.D.2. **Renombrar** todas las columnas a su versión en español y en letras capitales con **snake case**<br><br>
+2.D.3. **Reemplazar** valores de verdad en ACTIVO por SI o NO respectivamente<br><br>
+2.D.4. **Minimizar** y **españolizar** todos valores SI o NO<br><br>
 <br><br><hr>
 
 ### 2.E.ventas_detalle.csv
-2.E.1. Convertir primera fila en cabecera de la tabla<br><br>
-2.E.2. Renombrar todas las columnas a su versión en español y en letras minúsculas con snake case<br><br>
-2.E.3. Reemplazar valores null por 0 en la columna de precio unitario y la de cantidad <br><br>
+2.E.1. Convertir primera fila en **cabecera** de la tabla<br><br>
+2.E.2. **Renombrar** todas las columnas a su versión en español y en letras minúsculas con **snake case**<br><br>
+2.E.3. **Reemplazar** valores null por 0 en la columna de precio unitario y la de cantidad <br><br>
 <br><br><hr>
 
 ### 2.F.ventas_mensuales.csv
-2.F.2. Convertir primera fila en cabecera de la tabla<br><br>
-2.F.2. Reemplazar '-' , ' ', 'NaN'  por '0', ';' por '' y los años en Año por su correcto formato <br><br>
-2.E.2. Renombrar todas las columnas a su versión en español y en letras minúsculas con snake case<br><br>
+2.F.2. Convertir primera fila en **cabecera** de la tabla<br><br>
+2.F.2. **Reemplazar** '-' , ' ', 'NaN'  por '0', ';' por '' y los años en Año por su correcto formato <br><br>
+2.E.2. **Renombrar** todas las columnas a su versión en español y en letras minúsculas con snake case<br><br>
 <br><br><hr>
 
 ### 2.G.ventas_ordenes.csv
-2.G.1. Renombrar todas las columnas a su versión en español y en letras minúsculas con snake case<br><br>
-2.G.2. Normalizar todos los valores de la columna estado a minúsculas<br><br>
-2.G.3. Reemplazar '/' por '-' en las fechas de la columna 'orden fecha'<br><br>
-2.G.4. Reescribir las fechas que están inversas en el orden correcto<br><br>
-2.G.3. Reemplazar todos los valores vacíos con 0<br><br><br><br><hr>
+2.G.1. **Renombrar** todas las columnas a su versión en español y en letras minúsculas con snake case<br><br>
+2.G.2. **Normalizar** todos los valores de la columna estado a minúsculas<br><br>
+2.G.3. **Reemplazar** '/' por '-' en las fechas de la columna 'orden fecha'<br><br>
+2.G.4. **Reescribir** las fechas que están inversas en el orden correcto<br><br>
+2.G.3. **Reemplazar** todos los valores vacíos con 0<br><br><br><br><hr>
 
 <hr><hr><br><br>
 
@@ -142,8 +143,8 @@ claros, consistentes y adecuados al análisis que se desarrollará.**<br><br>
 lo ve necesario. Justifique las decisiones tomadas.**<br><br>
 
 
-3.1. Eliminar todas las columnas vacías, aquellas que tiene valores 'borrar' o 'null' pues carecen de significado respecto al dataset en general<br><br>
-3.2. Rellenar todos los datos vacíos o faltantes de los contactos en genreal con "desconocido", pues eliminarlos dejaría fuera de la base de datos un contacto fundamental para las relaciones mercantiles y negocios de los procesos de la organización.<br><br>
+3.1. **Eliminar** todas las columnas **vacías**, aquellas que tiene valores 'borrar' o 'null' pues carecen de significado respecto al dataset en general<br><br>
+3.2. **Rellenar** todos los datos **vacíos** **o** **faltantes** de los contactos en general con "desconocido", pues eliminarlos dejaría fuera de la base de datos un contacto fundamental para las relaciones mercantiles y negocios de los procesos de la organización.<br><br>
 
 
 <hr><hr><hr><br><br>
@@ -153,13 +154,13 @@ lo ve necesario. Justifique las decisiones tomadas.**<br><br>
 **Convierta las columnas que representan periodos (meses o años) en una estructura que
 facilite el análisis temporal y permita comparar tendencias.**<br><br>
 
-4.1. Anular la dinamización de solamente las columnas de meses en la tabla ventas mensuales<br><br>
-4.2. Añadir un nuevo índice para la tabla de venta mensuales<br><br>
-4.3. Cambiar el tipo de dato 'texto' de la columna 'anyo' en el modelo 'ventas_mensuales' a 'número entero'<br><br>
+4.1. **Anular la dinamización** de solamente las columnas de meses en la tabla ventas mensuales<br><br>
+4.2. **Añadir** un nuevo **índice** para la tabla de venta mensuales<br><br>
+4.3. **Cambiar** el tipo de dato 'texto' de la columna 'anyo' en el modelo 'ventas_mensuales' a 'número entero'<br><br>
 4.4. Duplicar la columna 'mes' en el modelo 'ventas_mensuales'<br><br>
-4.5. Reemplazar los abreviaturas de los meses del cuplicado de la columna 'mes' en el modelo 'ventas_mensuales' por su respectivo número de orden en el año.<br><br>
-4.6. Agregar una columna personalizada de fórmula — #date([anyo], [numero_mes], 1) — nombrada fecha<br><br>
-4.7. Quitar las columnas 'anyo', 'mes' y 'numero_mes' creadas previamente.
+4.5. **Reemplazar** los **abreviaturas** de los meses del duplicado de la columna 'mes' en el modelo 'ventas_mensuales' por su respectivo número de orden en el año.<br><br>
+4.6. **Agregar** una **columna** **personalizada** de fórmula — **#date([anyo], [numero_mes], 1)** — nombrada fecha<br><br>
+4.7. **Quitar** las columnas 'anyo', 'mes' y 'numero_mes' creadas previamente.
 
 
 <hr><hr><hr><br><br>
@@ -168,9 +169,9 @@ facilite el análisis temporal y permita comparar tendencias.**<br><br>
 **Verifique que los campos numéricos, valor, de texto y de fechas tengan el formato correcto.
 Detecte posibles inconsistencias.**<br><br>
 
-5.1. Reemplazar los valores SI/NO por true/false en la columna activo en la tabla productos_erp y formatearla respectivamente.<br><br>
-5.2. Formatear y cambiar el tipo de dato de las columnas que describan precios y valores monetarios a número decimal fijo para evitar errores de precisión matemática en los cáculos.<br><br>
-5.3. Cambiar el tipo de dato de las columnas que describan cantidades a número entero.
+5.1. **Reemplazar** los valores SI/NO por true/false en la columna activo en la tabla productos_erp y formatearla respectivamente.<br><br>
+5.2. **Formatear** y **cambiar** el tipo de dato de las columnas que describan precios y valores monetarios a número decimal fijo para evitar errores de precisión matemática en los cáculos.<br><br>
+5.3. **Cambiar** el tipo de dato de las columnas que describan cantidades a número entero.
 
 <br><br><hr><hr><hr><br><br>
 
@@ -178,17 +179,17 @@ Detecte posibles inconsistencias.**<br><br>
 Identifique valores faltantes o inconsistentes y proponga un criterio de sustitución o
 exclusión. Argumente por qué la estrategia elegida es la más adecuada.
 
-6.0. Ya se realizó previamente el tratamiento a nivel general.
+6.0. **Ya se realizó** previamente el tratamiento a nivel **general**.
 <br><br><hr><hr><hr><br><br>
 
 ## 7. 👥 Unificación de contactos
 Combine las distintas fuentes de información de clientes, proveedores y empleados en una
 sola tabla integrada, asegurándose de conservar atributos clave.
 
-7.1. Anexar a cualquiera de las consultas de contactos_... las otras dos consultas para crear una nueva mediante "Anexar Consultas"
+7.1. **Anexar** a cualquiera de las **consultas** de contactos_... las otras dos consultas para crear una nueva mediante "Anexar Consultas"
 7.2.1. Duplicar columna 'id' en el modelo recién creado 'contactos'<br><br>
-7.3.2. Extraer primeros caracteres por 1 como recuento (extraer el primer caracter)<br><br>
-7.4.3. Reemplazar cada caracter por su el tipo de contacto respetivo: c para cliente, e para empleado y p para proveedor. 
+7.3.2. **Extraer** primeros caracteres por 1 como recuento (extraer el primer caracter)<br><br>
+7.4.3. **Reemplazar** cada caracter por su el tipo de contacto respetivo: c para cliente, e para empleado y p para proveedor. 
 <br><br><hr><hr><hr><br><br>
 
 
@@ -196,17 +197,17 @@ sola tabla integrada, asegurándose de conservar atributos clave.
 Relacione las tablas de ventas con la información de productos y detalle de pedidos
 mediante llaves apropiadas. Compruebe la consistencia de las uniones.
 
-8.1. Nueva relación entre el modelo 'contactos' desde 'id' a 'id_cliente' en 'ventas_ordenes' como '1 a Varios'
+8.1. **Nueva relación** entre el modelo **'contactos' desde 'id' a 'id_cliente' en 'ventas_ordenes' como '1 a Varios'**
 
 
-8.2. Relacionar ventas_ordenes  con ventas_detalle
-8.2.1. Quitar registros duplicados en ventas_ordenes <br><br>
-8.2.2. Filtrar filas por todos los valores de 'total' excepto $0 en el modelo 'ventas_ordenes' <br><br>
-8.2.3. Quitar duplicados en la columna 'id_orden' en el modelo 'ventas_ordenes'<br><br>
-8.2.4. Nueva relación entre el modelo 'ventas_ordenes' desde 'id_orden' a 'id_orden' en el modelo 'ventas_detalle' como '1 a varios'<br><br>
-8.2.5 Quitar duplicados en la columna 'id_orden' en el model 'ventas_detalle'<br><br>
-8.2.6 Filtrar registros con datos vacíos o inválidos en el modelo 'ventas_detalle'<br>
-<br><br>8.3. Nueva relación entre el modelo 'ventas_detalle' desde 'id_producto' a 'id_producto' en 'productos_erp' como 'Varios a 1'
+8.2. **Relacionar** ventas_ordenes  con ventas_detalle
+8.2.1. **Quitar** registros duplicados en ventas_ordenes <br><br>
+8.2.2. **Filtrar** filas por todos los valores de 'total' excepto $0 en el modelo 'ventas_ordenes' <br><br>
+8.2.3. **Quitar** **duplicados** en la columna 'id_orden' en el modelo 'ventas_ordenes'<br><br>
+8.2.4. **Nueva relación** entre el modelo **'ventas_ordenes' desde 'id_orden' a 'id_orden' en el modelo 'ventas_detalle' como '1 a varios'<br><br>**
+8.2.5 **Quitar duplicados** en la columna 'id_orden' en el model 'ventas_detalle'<br><br>
+8.2.6 **Filtrar** registros con datos vacíos o inválidos en el modelo 'ventas_detalle'<br>
+<br><br>8.3. **Nueva relación** entre el modelo **'ventas_detalle' desde 'id_producto' a 'id_producto' en 'productos_erp' como 'Varios a 1'**
 <br><br><br>8.4. Nueva relación entre el modelo 'productos_erp' desde 'id_producto' a 'id_producto' en 'ventas_mensuales' como '1 a varios'
 <br><br><hr><hr><hr><br><br>
 
@@ -214,13 +215,13 @@ mediante llaves apropiadas. Compruebe la consistencia de las uniones.
 Use las herramientas de perfilado para identificar duplicados, valores erróneos o
 distribuciones extrañas. Documente los hallazgos.
 
-9.0. Ya se realizó previamente la identificación en cada unos de los modelos.<br><br><br>
+9.0. **Ya se realizó** previamente la identificación en **cada uno de los modelos**.<br><br><br>
 <hr>
 
 ### 9.1. 📋 Hallazgos
 
- - La mayoría las fuentes de datos poseían errores de formato en algunos registros incoherentes al formato CSV estándar, por lo que se tuvo que modificar la fuente de datos original mediante un editor de texto plano, pues la correción de Power BI era innecesariamente más compleja. Dentro de los errores de formato encontrados estaban: algunas filas estaban encerradas entre comillas dobles provocando que se interpretaran sus celdas como una sola, otras, tenían comas adicionales o comas para señalar números reales, sin embargo, el formato CSV, claramente, no distingue entre la coma como separador y la coma como punto decimal.
- - En los diferentes modelos de almacenamiento se hallaron muchos datos cuyo formato difería de un estándar o incluso, faltan de caracteres que dieran significado al dato en completitud. Por ejemplo: algunas direcciones de correo electrónico en los modelos relacionados a los contactos faltaban del dominio o terminación, la mayoría de los números telefónicos de los contactos tenían formatos distintos entre registros, la forma en que se etiquetaban los países para cada contacto era diferente respecto al modelo de los proveedores; los valores monetarios carerían de un estándar de formato en su mayoría; en el modelo de 'ventas_detalle' se encontraron valores negativos en la columna cantidad, en contexto, podría tratarse de devoluciones tomando como referencia que se registraron reembolsos usando valores negativos en el modelo 'ventas_ordenes'; la columna 'activo' en 'productos_erp' carecía de normalización.
+ - La **mayoría** las fuentes de **datos poseían errores de formato** en algunos registros incoherentes al formato CSV estándar, por lo que se tuvo que modificar la fuente de datos original mediante un editor de texto plano, pues la correción de Power BI era innecesariamente más compleja. Dentro de los errores de formato encontrados estaban: algunas filas estaban encerradas entre comillas dobles provocando que se interpretaran sus celdas como una sola, otras, tenían comas adicionales o comas para señalar números reales, sin embargo, el formato CSV, claramente, no distingue entre la coma como separador y la coma como punto decimal.
+ - En los diferentes modelos de almacenamiento se hallaron **muchos datos cuyo formato difería de un estándar** o incluso, **faltan de caracteres** que dieran significado al dato en completitud. Por ejemplo: algunas direcciones de correo electrónico en los modelos relacionados a los contactos faltaban del dominio o terminación, la mayoría de los números telefónicos de los contactos tenían **formatos distintos** entre registros, la forma en que se etiquetaban los países para cada contacto era diferente respecto al modelo de los proveedores; los valores monetarios carerían de un estándar de formato en su mayoría; en el modelo de 'ventas_detalle' se encontraron **valores negativos** en la columna cantidad, en contexto, podría tratarse de devoluciones tomando como referencia que se registraron reembolsos usando valores negativos en el modelo 'ventas_ordenes'; la columna 'activo' en 'productos_erp' **carecía de normalización**.
  - Listando las inconsistencias en general se identifican: la existencia de productos en los modelos relacionados a ventas que faltan de registro en el modelo 'productos_erp'; las mayoría de ventas mensuales se registraron en el 2024 y es mínima la cantidad que refiere al año 2020, lo cual podría indicar un crecimiento exponencial del éxito del negocio en cuestión, asumiendo que estén las ventas registradas todas las ventas en realmente; coincidencialmente, hay tres ordenes de prodcutos resgistradas por el mismo valor total, sin embargo, no hay forma de especular razón alguna, pues los productos asociados a dichas órdenes mediante 'ventas_detalle' son inexistentes en 'productos_erp' o su precio unitario carece de sentido respecto a la cantidad registrada solicitada en la orden sin coincidir con el total descrito en 'ventas_ordenes'; hubieron bastantes números telefónicos sin prefijo nacional, aun así, debido al formato del número, se puedo determinar que era originarios de Colombia debido al contexto dado conformado por los modelos de contactos.
  - Aunque la mayoría de las ventas se dieron durante el 2024, solo el 33,33% de estas tienen asociado un cliente registrado, además, aunque los clientes registrados tienen una distribución por nacionalidad similar, más del doble de las ventas realizadas durante el 2024 fueron realizadas a Chile, aprox. la mitad a Colombia y faltan registro alguno respecto a los clientes de otros países.
  - Las ventas mensuales durante el año 2024 presentan una varianza casi insignificante, es decir, los totales mensuales son prácticamente idénticos a nivel porcentual respecto al total de ventas durante el año; a diferencia del año 2020, donde las ventas por mes aparentan tener un comportamiento más 'natural'.
@@ -245,3 +246,4 @@ transformación.
 	else if Text.Upper(Text.Start(Text.Trim([id]), 1)) = "P" then "proveedor"<br>
 	else "desocupado xD (bromita, no se lo tome en serio profe :C)"<br>
 </i>
+ - Se añade la columna rol (tipo de empleado) puesto que no es suficientemente intuitivo el caracter inicial del código del contacto para alguien neonato en la orgnización y podría confundirse con el código para declarar un producto.
