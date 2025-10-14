@@ -1,5 +1,5 @@
-# Taller de Transformación de Datos con Power Query (Pasos Aplicados por cada Actividad)
-
+# Taller de Transformación de Datos con Power Query 
+## Desarrollo y Pasos Aplicados por cada Actividad
 ---
 <br><br><hr><hr><hr><br><br>
 ## 1. ⬆️ Carga inicial de datos:
