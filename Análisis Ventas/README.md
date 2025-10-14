@@ -254,3 +254,6 @@ transformación.
 	</b>
 </i>
  - Se añade la **columna rol (tipo de empleado)** puesto que **no es suficientemente intuitivo el caracter inicial del código del contacto** para alguien neonato en la orgnización y podría confundirse con el código para declarar un producto.
+
+
+# CREANDO INFORMES VISUALES DEMOSTRATIVOS DE LOS HALLAZGOS Y GENERALES Y DE LAS TABLAS REQUERIDAS Y DE LAS RELACIONES REALIZADAS...
