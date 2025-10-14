@@ -217,7 +217,7 @@ distribuciones extrañas. Documente los hallazgos.
 9.0. Ya se realizó previamente la identificación en cada unos de los modelos.<br><br><br>
 <hr>
 
-### 9.1. 🔎 Hallazgos
+### 9.1. 📋 Hallazgos
 
  - La mayoría las fuentes de datos poseían errores de formato en algunos registros incoherentes al formato CSV estándar, por lo que se tuvo que modificar la fuente de datos original mediante un editor de texto plano, pues la correción de Power BI era innecesariamente más compleja. Dentro de los errores de formato encontrados estaban: algunas filas estaban encerradas entre comillas dobles provocando que se interpretaran sus celdas como una sola, otras, tenían comas adicionales o comas para señalar números reales, sin embargo, el formato CSV, claramente, no distingue entre la coma como separador y la coma como punto decimal.
  - En los diferentes modelos de almacenamiento se hallaron muchos datos cuyo formato difería de un estándar o incluso, faltan de caracteres que dieran significado al dato en completitud. Por ejemplo: algunas direcciones de correo electrónico en los modelos relacionados a los contactos faltaban del dominio o terminación, la mayoría de los números telefónicos de los contactos tenían formatos distintos entre registros, la forma en que se etiquetaban los países para cada contacto era diferente respecto al modelo de los proveedores; los valores monetarios carerían de un estándar de formato en su mayoría; en el modelo de 'ventas_detalle' se encontraron valores negativos en la columna cantidad, en contexto, podría tratarse de devoluciones tomando como referencia que se registraron reembolsos usando valores negativos en el modelo 'ventas_ordenes'; la columna 'activo' en 'productos_erp' carecía de normalización.
@@ -230,10 +230,18 @@ distribuciones extrañas. Documente los hallazgos.
 
 
 
-## 10. Revisión del código M
+## 10. 🔎 Revisión del código M
 Explore el Editor Avanzado para comprender cómo Power Query registra cada
 transformación. Ajuste, si es necesario, algún paso para optimizar el flujo de
 transformación.
 
 
-10.1. Reunificar el numero telefónico con su prefijo (usando la misma lógica que se usó para unificar el año con el mes, pero usando la fórmula — [prefijo] & " " & [telefono] — ) y reemplazar el valor 'desconocido' por '???' para simplificar<br><br>
+10.1. Reunificar el numero telefónico con su prefijo en el modelo consolidado 'contactos' (usando la misma lógica que se usó para unificar el año con el mes, pero usando la fórmula — [prefijo] & " " & [telefono] — ) y reemplazar el valor 'desconocido' por '???' para simplificar<br><br>
+10.2. Eliminar cualquier espacio en blanco sobrante en cada nombre en el modelo 'contactos' mediante la fórmula — Text.Combine(List.Select(Text.Split(Text.Trim([nombre]), " "), each _ <> ""), " ")) — que recorta los espacios en blanco restantes al incio y fin de la cadena de texto, luego divide la cadena usando como separador los espacios en blanco, después, selecciona de estos todos los que sean diferentes de a un espacio en blanco, para finalmente, combinar en una sola cadena las palabras que quedaron (los nomres sin espacios en blanco  adicionales intemedios ni extremos).<br><br>
+10.3. Automatizar el valor de la columna 'tipo' en el modelo consolidado 'contactos', pues se relaciona directamente con el primer caracter del código del contacto, tal que se puede definir mediante la función:<br><br>
+<i>
+	if Text.Upper(Text.Start(Text.Trim([id]), 1)) = "C" then "cliente"<br>
+	else if Text.Upper(Text.Start(Text.Trim([id]), 1)) = "E" then "empleado"<br>
+	else if Text.Upper(Text.Start(Text.Trim([id]), 1)) = "P" then "proveedor"<br>
+	else "desocupado xD (bromita, no se lo tome en serio profe :C)"<br>
+</i>
