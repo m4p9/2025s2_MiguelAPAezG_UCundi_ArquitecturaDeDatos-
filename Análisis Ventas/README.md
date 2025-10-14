@@ -230,8 +230,9 @@ distribuciones extrañas. Documente los hallazgos.**
  
  - *Las ventas mensuales durante el año 2024 presentan una varianza casi insignificante, es decir, los totales mensuales son prácticamente idénticos a nivel porcentual respecto al total de ventas durante el año; a diferencia del año 2020, donde las ventas por mes aparentan tener un comportamiento más 'natural'.*<br>
  
- - *Según los registros de ventas mensuales durante los dos únicos años descritos, hubo una **mayor variedad de productos vendidos durante el 2024** que en 2020, este último con tan solo **3 respecto a los 20 distintos** vendidos en el 2024.*
+ - *Según los registros de ventas mensuales durante los dos únicos años descritos, hubo una **mayor variedad de productos vendidos durante el 2024** que en 2020, este último con tan solo **3 respecto a los 20 distintos** vendidos en el 2024.*<br>
 
+ - *Aunque hay **contactos con el mismo nombre**, en el sentido riguroso, **podría** tratarse de **coioncidencia**, pues mayormente se diferencian en el resto de los campos o de simplemente un contacto que cumple **multiples roles** para la orgnización, tanco como cliente como empleado, por ejemplo.*<br>
 <br><br><hr><hr><hr><br><br>
 
 
