@@ -159,7 +159,7 @@ facilite el análisis temporal y permita comparar tendencias.**<br><br>
 4.4. Duplicar la columna 'mes' en el modelo 'ventas_mensuales'<br><br>
 4.5. Reemplazar los abreviaturas de los meses del cuplicado de la columna 'mes' en el modelo 'ventas_mensuales' por su respectivo número de orden en el año.<br><br>
 4.6. Agregar una columna personalizada de fórmula — #date([anyo], [numero_mes], 1) — nombrada fecha<br><br>
-4.7. Quitar las columnas 'anyo' y 'numero_mes' creadas previamente.
+4.7. Quitar las columnas 'anyo', 'mes' y 'numero_mes' creadas previamente.
 
 
 <hr><hr><hr><br><br>
@@ -234,3 +234,6 @@ distribuciones extrañas. Documente los hallazgos.
 Explore el Editor Avanzado para comprender cómo Power Query registra cada
 transformación. Ajuste, si es necesario, algún paso para optimizar el flujo de
 transformación.
+
+
+10.1. Reunificar el numero telefónico con su prefijo (usando la misma lógica que se usó para unificar el año con el mes, pero usando la fórmula — [prefijo] & " " & [telefono] — ) y reemplazar el valor 'desconocido' por '???' para simplificar<br><br>
