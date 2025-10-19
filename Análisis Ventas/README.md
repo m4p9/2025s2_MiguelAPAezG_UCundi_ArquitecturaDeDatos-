@@ -1,7 +1,15 @@
 # Taller de Transformación de Datos con Power Query 
 ## Desarrollo y Pasos Aplicados por cada Actividad
 ---
-<br><br><hr><hr><hr><br><br>
+### Miguel Ángel Páez García<br>
+
+Programa de Ingeniería de Software, Facultad de Ingeniería<br>
+Universidad de Cundinamarca - Extensión Soacha<br>
+Grupo INFSOFT702, Arquitectura de Datos CAD652022720<br>
+Jorge Armando Jurado Peralta<br>
+Septiembre de 2025<br>
+
+<hr><hr><hr><br><br>
 ## 1. ⬆️ Carga inicial de datos:
 **Verifique que los distintos archivos se integren correctamente en Power Query y que se
 reconozcan sus estructuras**<br><br>
