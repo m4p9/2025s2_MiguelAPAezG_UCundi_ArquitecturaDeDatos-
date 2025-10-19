@@ -11,6 +11,96 @@ Septiembre de 2025<br>
 
 <hr><hr><hr><br><br>
 
+## 📂 Estructura y Descripción de Archivos del Proyecto
+
+### 📁 Carpeta Principal
+`2025s2_MiguelAPaezG_UCundi_ArquitecturaDeDatos-/Análisis Ventas/`
+
+Esta carpeta contiene **todos los productos generados en el taller de Transformación de Datos con Power Query**, organizados según su función dentro del flujo ETL (Extracción, Transformación, Carga y Análisis).
+
+---
+
+### 📘 1. `25101035_MiguelAPaezG_UCundi_ArqDat_TallerTransDatosPowerQuery3.pbix`
+**Tipo:** Archivo Power BI  
+**Función:** Contiene el **modelo de datos final** con todas las relaciones, medidas DAX y visualizaciones interactivas.  
+**Incluye:**
+- Tablas transformadas desde Power Query.
+- Métricas DAX (ingresos, ventas, productos, KPIs).  
+- Paneles de control visual (por producto, país y tiempo).
+
+**Uso:** Se abre en **Power BI Desktop**. Es el archivo principal para explorar el modelo interactivo.
+
+---
+
+### 📗 2. `25101035_MiguelAPaezG_UCundi_ArqDat_TallerTransDatosPowerQuery_DatosTransformados.xlsx`
+**Tipo:** Libro Excel  
+**Función:** Resume el **resultado del proceso ETL** ejecutado en Power Query. Cada hoja corresponde a una tabla ya transformada:
+- `Contactos`
+- `Productos`
+- `Ventas_Ordenes`
+- `Ventas_Detalle`
+- `Ventas_Mensuales`
+
+**Uso:** Permite revisar los datos finales antes de cargarlos a Power BI, sirviendo como respaldo validable del proceso de limpieza y transformación.
+
+---
+
+### 📙 3. `25101035_MiguelAPaezG_UCundi_ArqDat_TallerTransDatosPowerQuery_InformeFinal.pdf`
+**Tipo:** Documento PDF  
+**Función:** Es el **reporte técnico resumido (1 página)** que explica:
+- Decisiones de limpieza y transformación.
+- Criterios adoptados durante los desafíos.
+- Hallazgos más relevantes y conclusiones del análisis.
+
+**Uso:** Documento académico de entrega formal.
+
+---
+
+### 📖 4. `25101035_MiguelAPaezG_UCundi_ArqDat_TallerTransDatosPowerQuery_Resultados+InformesVisuales.pdf`
+**Tipo:** Documento PDF  
+**Función:** Compendio de **gráficos e informes exportados de Power BI**.  
+**Incluye:**
+- Ventas mensuales por producto.
+- Total de ingresos y cantidad de ventas.
+- Indicadores geográficos y de rendimiento.
+- KPIs globales.
+
+**Uso:** Permite visualizar resultados sin necesidad de abrir Power BI.
+
+---
+
+### 🔗 5. `README.md`
+**Tipo:** Documento Markdown  
+**Función:** Explica el **propósito general del proyecto**, las etapas ETL, decisiones técnicas y resultados esperados.  
+Incluye enlaces y descripciones de cada archivo del repositorio.
+
+**Uso:** Se muestra automáticamente en GitHub como presentación general del proyecto.
+
+---
+
+## 🔄 Flujo de Trabajo del Proyecto
+
+```text
+Datos originales (.csv)
+        ⬇
+  Power Query (ETL)
+  ├─ Limpieza y normalización
+  └─ Consolidación de tablas
+        ⬇
+✨ DatosTransformados.xlsx  ← Resultados del ETL
+        ⬇
+✨ Power BI (.pbix)  ← Modelo analítico y visualizaciones
+        ├─ Resultados+InformesVisuales.pdf
+        └─ InformeFinal.pdf
+        ⬇
+🔗 README.md  ← Documentación general
+```
+
+<hr><hr><hr><br><br>
+
+
+
+
 ## 1. ⬆️ Carga inicial de datos:
 **Verifique que los distintos archivos se integren correctamente en Power Query y que se
 reconozcan sus estructuras**<br><br>
