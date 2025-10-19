@@ -10,6 +10,7 @@ Jorge Armando Jurado Peralta<br>
 Septiembre de 2025<br>
 
 <hr><hr><hr><br><br>
+
 ## 1. ⬆️ Carga inicial de datos:
 **Verifique que los distintos archivos se integren correctamente en Power Query y que se
 reconozcan sus estructuras**<br><br>
